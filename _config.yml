@@ -34,6 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Liquid settings
+liquid:
+  error_mode        : strict # Response to errors (Possible values: 'lax', 'warn' or 'strict').
+  strict_filters    : true # Catch non-existing filters.
+  strict_variables  : true # Catch non-assigned variables.
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
